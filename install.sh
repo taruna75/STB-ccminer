@@ -50,7 +50,7 @@ then
     fi
   done
 fi
-wget https://raw.githubusercontent.com/Oink70/Android-Mining/main/config.json -P ~/ccminer
+wget https://raw.githubusercontent.com/taruna75/STB-ccminer/main/config.json -P ~/ccminer
 
 if [ -f ~/ccminer/ccminer ]
 then
@@ -74,7 +74,7 @@ printf '===============\n'
 printf '\nManual:\n'
 printf 'start: ~/.ccminer/start.sh\n'
 printf 'stop: screen -X -S CCminer quit\n'
-printf '\nmonitor mining: screen -x CCminer\n'
+printf '\nmonitor mining: screen -r\n'
 printf "exit monitor: 'CTRL-a' followed by 'd'\n\n"
 EOF
 chmod +x start.sh
