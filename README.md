@@ -1,0 +1,2 @@
+# STB-ccminer
+STB veruscoin
